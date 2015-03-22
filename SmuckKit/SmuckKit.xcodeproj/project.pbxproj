@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3661111ABE383600A62C89 /* SmuckKitOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3661101ABE383600A62C89 /* SmuckKitOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661171ABE383600A62C89 /* SmuckKitOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B36610C1ABE383600A62C89 /* SmuckKitOSX.framework */; };
+		0B36611E1ABE383600A62C89 /* SmuckKitOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B36611D1ABE383600A62C89 /* SmuckKitOSXTests.m */; };
+		0B36612F1ABE384800A62C89 /* SmuckKitIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B36612E1ABE384800A62C89 /* SmuckKitIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661351ABE384800A62C89 /* SmuckKitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B36612A1ABE384800A62C89 /* SmuckKitIOS.framework */; };
+		0B36613C1ABE384800A62C89 /* SmuckKitIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B36613B1ABE384800A62C89 /* SmuckKitIOSTests.m */; };
+		0B3661AA1ABE3BE900A62C89 /* SmuckKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3660F01ABE37A100A62C89 /* SmuckKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661AB1ABE3BEA00A62C89 /* SmuckKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3660F01ABE37A100A62C89 /* SmuckKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661B51ABFD55C00A62C89 /* Smuck.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3661B31ABFD55C00A62C89 /* Smuck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661B61ABFD55C00A62C89 /* Smuck.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3661B31ABFD55C00A62C89 /* Smuck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661B71ABFD55C00A62C89 /* Smuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3661B41ABFD55C00A62C89 /* Smuck.m */; };
+		0B3661B81ABFD55C00A62C89 /* Smuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3661B41ABFD55C00A62C89 /* Smuck.m */; };
+		0B3661B91ABFDCD900A62C89 /* SmuckKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3660FD1ABE37A100A62C89 /* SmuckKitTests.m */; };
+		0B3661BA1ABFDCDB00A62C89 /* SmuckKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3660FD1ABE37A100A62C89 /* SmuckKitTests.m */; };
+		0B3661BD1ABFDCDB00A62C89 /* SmuckOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3661BB1ABFDCDB00A62C89 /* SmuckOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661BE1ABFDCDB00A62C89 /* SmuckOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3661BC1ABFDCDB00A62C89 /* SmuckOSX.m */; };
+		0B3661C11ABFDCDB00A62C89 /* SmuckIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3661BF1ABFDCDB00A62C89 /* SmuckIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3661C21ABFDCDB00A62C89 /* SmuckIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3661C01ABFDCDB00A62C89 /* SmuckIOS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B3661181ABE383600A62C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B3660E21ABE37A100A62C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B36610B1ABE383600A62C89;
+			remoteInfo = SmuckKitOSX;
+		};
+		0B3661361ABE384800A62C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B3660E21ABE37A100A62C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B3661291ABE384800A62C89;
+			remoteInfo = SmuckKitIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3660F01ABE37A100A62C89 /* SmuckKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmuckKit.h; sourceTree = "<group>"; };
+		0B3660FD1ABE37A100A62C89 /* SmuckKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmuckKitTests.m; sourceTree = "<group>"; };
+		0B36610C1ABE383600A62C89 /* SmuckKitOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmuckKitOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B36610F1ABE383600A62C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3661101ABE383600A62C89 /* SmuckKitOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmuckKitOSX.h; sourceTree = "<group>"; };
+		0B3661161ABE383600A62C89 /* SmuckKitOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmuckKitOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B36611C1ABE383600A62C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B36611D1ABE383600A62C89 /* SmuckKitOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmuckKitOSXTests.m; sourceTree = "<group>"; };
+		0B36612A1ABE384800A62C89 /* SmuckKitIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmuckKitIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B36612D1ABE384800A62C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B36612E1ABE384800A62C89 /* SmuckKitIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmuckKitIOS.h; sourceTree = "<group>"; };
+		0B3661341ABE384800A62C89 /* SmuckKitIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmuckKitIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B36613A1ABE384800A62C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B36613B1ABE384800A62C89 /* SmuckKitIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmuckKitIOSTests.m; sourceTree = "<group>"; };
+		0B3661B31ABFD55C00A62C89 /* Smuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smuck.h; sourceTree = "<group>"; };
+		0B3661B41ABFD55C00A62C89 /* Smuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Smuck.m; sourceTree = "<group>"; };
+		0B3661BB1ABFDCDB00A62C89 /* SmuckOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmuckOSX.h; sourceTree = "<group>"; };
+		0B3661BC1ABFDCDB00A62C89 /* SmuckOSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmuckOSX.m; sourceTree = "<group>"; };
+		0B3661BF1ABFDCDB00A62C89 /* SmuckIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmuckIOS.h; sourceTree = "<group>"; };
+		0B3661C01ABFDCDB00A62C89 /* SmuckIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmuckIOS.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B3661081ABE383600A62C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661131ABE383600A62C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661171ABE383600A62C89 /* SmuckKitOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661261ABE384800A62C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661311ABE384800A62C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661351ABE384800A62C89 /* SmuckKitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3660E11ABE37A100A62C89 = {
+			isa = PBXGroup;
+			children = (
+				0B3660ED1ABE37A100A62C89 /* SmuckKit */,
+				0B3660FA1ABE37A100A62C89 /* SmuckKitTests */,
+				0B36610D1ABE383600A62C89 /* SmuckKitOSX */,
+				0B36611A1ABE383600A62C89 /* SmuckKitOSXTests */,
+				0B36612B1ABE384800A62C89 /* SmuckKitIOS */,
+				0B3661381ABE384800A62C89 /* SmuckKitIOSTests */,
+				0B3660EC1ABE37A100A62C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B3660EC1ABE37A100A62C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B36610C1ABE383600A62C89 /* SmuckKitOSX.framework */,
+				0B3661161ABE383600A62C89 /* SmuckKitOSXTests.xctest */,
+				0B36612A1ABE384800A62C89 /* SmuckKitIOS.framework */,
+				0B3661341ABE384800A62C89 /* SmuckKitIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B3660ED1ABE37A100A62C89 /* SmuckKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B3660F01ABE37A100A62C89 /* SmuckKit.h */,
+				0B3661B31ABFD55C00A62C89 /* Smuck.h */,
+				0B3661B41ABFD55C00A62C89 /* Smuck.m */,
+			);
+			path = SmuckKit;
+			sourceTree = "<group>";
+		};
+		0B3660FA1ABE37A100A62C89 /* SmuckKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B3660FD1ABE37A100A62C89 /* SmuckKitTests.m */,
+			);
+			path = SmuckKitTests;
+			sourceTree = "<group>";
+		};
+		0B36610D1ABE383600A62C89 /* SmuckKitOSX */ = {
+			isa = PBXGroup;
+			children = (
+				0B3661101ABE383600A62C89 /* SmuckKitOSX.h */,
+				0B3661BB1ABFDCDB00A62C89 /* SmuckOSX.h */,
+				0B3661BC1ABFDCDB00A62C89 /* SmuckOSX.m */,
+				0B36610E1ABE383600A62C89 /* Supporting Files */,
+			);
+			path = SmuckKitOSX;
+			sourceTree = "<group>";
+		};
+		0B36610E1ABE383600A62C89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B36610F1ABE383600A62C89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B36611A1ABE383600A62C89 /* SmuckKitOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B36611D1ABE383600A62C89 /* SmuckKitOSXTests.m */,
+				0B36611B1ABE383600A62C89 /* Supporting Files */,
+			);
+			path = SmuckKitOSXTests;
+			sourceTree = "<group>";
+		};
+		0B36611B1ABE383600A62C89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B36611C1ABE383600A62C89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B36612B1ABE384800A62C89 /* SmuckKitIOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B36612E1ABE384800A62C89 /* SmuckKitIOS.h */,
+				0B3661BF1ABFDCDB00A62C89 /* SmuckIOS.h */,
+				0B3661C01ABFDCDB00A62C89 /* SmuckIOS.m */,
+				0B36612C1ABE384800A62C89 /* Supporting Files */,
+			);
+			path = SmuckKitIOS;
+			sourceTree = "<group>";
+		};
+		0B36612C1ABE384800A62C89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B36612D1ABE384800A62C89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B3661381ABE384800A62C89 /* SmuckKitIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B36613B1ABE384800A62C89 /* SmuckKitIOSTests.m */,
+				0B3661391ABE384800A62C89 /* Supporting Files */,
+			);
+			path = SmuckKitIOSTests;
+			sourceTree = "<group>";
+		};
+		0B3661391ABE384800A62C89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B36613A1ABE384800A62C89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B3661091ABE383600A62C89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661B51ABFD55C00A62C89 /* Smuck.h in Headers */,
+				0B3661BD1ABFDCDB00A62C89 /* SmuckOSX.h in Headers */,
+				0B3661111ABE383600A62C89 /* SmuckKitOSX.h in Headers */,
+				0B3661AA1ABE3BE900A62C89 /* SmuckKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661271ABE384800A62C89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661B61ABFD55C00A62C89 /* Smuck.h in Headers */,
+				0B36612F1ABE384800A62C89 /* SmuckKitIOS.h in Headers */,
+				0B3661C11ABFDCDB00A62C89 /* SmuckIOS.h in Headers */,
+				0B3661AB1ABE3BEA00A62C89 /* SmuckKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B36610B1ABE383600A62C89 /* SmuckKitOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B36611F1ABE383600A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitOSX" */;
+			buildPhases = (
+				0B3661071ABE383600A62C89 /* Sources */,
+				0B3661081ABE383600A62C89 /* Frameworks */,
+				0B3661091ABE383600A62C89 /* Headers */,
+				0B36610A1ABE383600A62C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmuckKitOSX;
+			productName = SmuckKitOSX;
+			productReference = 0B36610C1ABE383600A62C89 /* SmuckKitOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B3661151ABE383600A62C89 /* SmuckKitOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B3661221ABE383600A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitOSXTests" */;
+			buildPhases = (
+				0B3661121ABE383600A62C89 /* Sources */,
+				0B3661131ABE383600A62C89 /* Frameworks */,
+				0B3661141ABE383600A62C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B3661191ABE383600A62C89 /* PBXTargetDependency */,
+			);
+			name = SmuckKitOSXTests;
+			productName = SmuckKitOSXTests;
+			productReference = 0B3661161ABE383600A62C89 /* SmuckKitOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B3661291ABE384800A62C89 /* SmuckKitIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B36613D1ABE384800A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitIOS" */;
+			buildPhases = (
+				0B3661251ABE384800A62C89 /* Sources */,
+				0B3661261ABE384800A62C89 /* Frameworks */,
+				0B3661271ABE384800A62C89 /* Headers */,
+				0B3661281ABE384800A62C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmuckKitIOS;
+			productName = SmuckKitIOS;
+			productReference = 0B36612A1ABE384800A62C89 /* SmuckKitIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B3661331ABE384800A62C89 /* SmuckKitIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B3661401ABE384800A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitIOSTests" */;
+			buildPhases = (
+				0B3661301ABE384800A62C89 /* Sources */,
+				0B3661311ABE384800A62C89 /* Frameworks */,
+				0B3661321ABE384800A62C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B3661371ABE384800A62C89 /* PBXTargetDependency */,
+			);
+			name = SmuckKitIOSTests;
+			productName = SmuckKitIOSTests;
+			productReference = 0B3661341ABE384800A62C89 /* SmuckKitIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B3660E21ABE37A100A62C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Trygve Sanne Hardersen";
+				TargetAttributes = {
+					0B36610B1ABE383600A62C89 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0B3661151ABE383600A62C89 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0B3661291ABE384800A62C89 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0B3661331ABE384800A62C89 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 0B3660E51ABE37A100A62C89 /* Build configuration list for PBXProject "SmuckKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B3660E11ABE37A100A62C89;
+			productRefGroup = 0B3660EC1ABE37A100A62C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B36610B1ABE383600A62C89 /* SmuckKitOSX */,
+				0B3661151ABE383600A62C89 /* SmuckKitOSXTests */,
+				0B3661291ABE384800A62C89 /* SmuckKitIOS */,
+				0B3661331ABE384800A62C89 /* SmuckKitIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B36610A1ABE383600A62C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661141ABE383600A62C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661281ABE384800A62C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661321ABE384800A62C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B3661071ABE383600A62C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661BE1ABFDCDB00A62C89 /* SmuckOSX.m in Sources */,
+				0B3661B71ABFD55C00A62C89 /* Smuck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661121ABE383600A62C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661B91ABFDCD900A62C89 /* SmuckKitTests.m in Sources */,
+				0B36611E1ABE383600A62C89 /* SmuckKitOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661251ABE384800A62C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661B81ABFD55C00A62C89 /* Smuck.m in Sources */,
+				0B3661C21ABFDCDB00A62C89 /* SmuckIOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3661301ABE384800A62C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3661BA1ABFDCDB00A62C89 /* SmuckKitTests.m in Sources */,
+				0B36613C1ABE384800A62C89 /* SmuckKitIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B3661191ABE383600A62C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B36610B1ABE383600A62C89 /* SmuckKitOSX */;
+			targetProxy = 0B3661181ABE383600A62C89 /* PBXContainerItemProxy */;
+		};
+		0B3661371ABE384800A62C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B3661291ABE384800A62C89 /* SmuckKitIOS */;
+			targetProxy = 0B3661361ABE384800A62C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B3660FF1ABE37A100A62C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B3661001ABE37A100A62C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B3661201ABE383600A62C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmuckKitOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0B3661211ABE383600A62C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SmuckKitOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0B3661231ABE383600A62C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
+				INFOPLIST_FILE = SmuckKitOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B3661241ABE383600A62C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
+				INFOPLIST_FILE = SmuckKitOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B36613E1ABE384800A62C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmuckKitIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B36613F1ABE384800A62C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SmuckKitIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B3661411ABE384800A62C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
+				INFOPLIST_FILE = SmuckKitIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B3661421ABE384800A62C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
+				INFOPLIST_FILE = SmuckKitIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B3660E51ABE37A100A62C89 /* Build configuration list for PBXProject "SmuckKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3660FF1ABE37A100A62C89 /* Debug */,
+				0B3661001ABE37A100A62C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B36611F1ABE383600A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3661201ABE383600A62C89 /* Debug */,
+				0B3661211ABE383600A62C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B3661221ABE383600A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3661231ABE383600A62C89 /* Debug */,
+				0B3661241ABE383600A62C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B36613D1ABE384800A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B36613E1ABE384800A62C89 /* Debug */,
+				0B36613F1ABE384800A62C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B3661401ABE384800A62C89 /* Build configuration list for PBXNativeTarget "SmuckKitIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3661411ABE384800A62C89 /* Debug */,
+				0B3661421ABE384800A62C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B3660E21ABE37A100A62C89 /* Project object */;
+}

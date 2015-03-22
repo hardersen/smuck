@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SmuckIOS/SmuckIOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SmuckOSX/SmuckOSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SmuckKit/SmuckKit.xcodeproj">
+   </FileRef>
+</Workspace>

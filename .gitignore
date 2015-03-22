@@ -1,0 +1,17 @@
+# xcode noise
+build/
+dist/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserdatad/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+profile
+
+# osx noise
+.LSOverride
+*.swp
+.DS_Store
+
