@@ -8,6 +8,7 @@ dist/
 *.xcuserdatad/
 *.xcodeproj/xcuserdata/
 *.xcodeproj/project.xcworkspace/
+*.xccheckout
 profile
 
 # osx noise
