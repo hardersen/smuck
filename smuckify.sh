@@ -1,17 +1,20 @@
 #!/bin/sh
 
 #
-# Script to rename Smuck to your own project
+# Script to rebrand Smuck and make your own project.
 #
-# Usage: ./smuckify.sh ProjectName BundleGroup CopyrightName
+# Usage: ./smuckify.sh ProjectName BundleIdentifier CopyrightName
 #
-# Example ./smuckify.sh "CoolProject" "com.examlpe" "John Appleseed"
+# Example ./smuckify.sh "MyApp" "com.example" "John Appleseed"
 #
-# This will rename Smuck to CoolProject with the bundle identifier
-# com.example.CoolProject and change all copyright headers to
-# John Appleseed
+# This will rebrand Smuck to MyApp with the bundle identifier
+# com.example.MyApp and change all copyright stuff to
+# John Appleseed. 
 #
-# smuckify.sh needs to be run from the root directory of the project.
+# It will also take care of the 'created by' dates.
+#
+# smuckify.sh needs to be run from the root directory of 
+# the Smuck project.
 #
 
 PROJECT_NAME=$1
@@ -102,7 +105,7 @@ function _rmfile {
 ##############
 
 # Git
-_rmdir "./.git"
+rm -rf "./.git"
 
 # LICENSE and README
 _rmfile "./LICENSE"
